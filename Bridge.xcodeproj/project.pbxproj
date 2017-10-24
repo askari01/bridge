@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36314D411F9F72A400C91A57 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36314D401F9F72A400C91A57 /* testVC.swift */; };
+		36314D431F9F73FA00C91A57 /* TestTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36314D421F9F73FA00C91A57 /* TestTVCell.swift */; };
+		36314D451F9F78C100C91A57 /* Test1TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36314D441F9F78C100C91A57 /* Test1TVC.swift */; };
+		36314D471F9F78D200C91A57 /* test1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36314D461F9F78D200C91A57 /* test1VC.swift */; };
 		672E505D1F88D40300AC3D52 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672E505C1F88D40300AC3D52 /* SignUpViewController.swift */; };
 		673AB3CB1F87AEC4008BAB48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AB3CA1F87AEC4008BAB48 /* LoginViewController.swift */; };
 		678F30A91F88D955002F3CA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 678F30A81F88D955002F3CA3 /* GoogleService-Info.plist */; };
@@ -24,6 +28,10 @@
 
 /* Begin PBXFileReference section */
 		3247C7D6F9474E390DA6AFDA /* Pods_Bridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36314D401F9F72A400C91A57 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		36314D421F9F73FA00C91A57 /* TestTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTVCell.swift; sourceTree = "<group>"; };
+		36314D441F9F78C100C91A57 /* Test1TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1TVC.swift; sourceTree = "<group>"; };
+		36314D461F9F78D200C91A57 /* test1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1VC.swift; sourceTree = "<group>"; };
 		672E505C1F88D40300AC3D52 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		673AB3CA1F87AEC4008BAB48 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		678F30A81F88D955002F3CA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				67BAB9EB1F875EE4008767B7 /* LaunchScreen.storyboard */,
 				67BAB9EE1F875EE4008767B7 /* Info.plist */,
 				678F30A81F88D955002F3CA3 /* GoogleService-Info.plist */,
+				36314D401F9F72A400C91A57 /* testVC.swift */,
+				36314D421F9F73FA00C91A57 /* TestTVCell.swift */,
+				36314D441F9F78C100C91A57 /* Test1TVC.swift */,
+				36314D461F9F78D200C91A57 /* test1VC.swift */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -249,11 +261,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Bridge/Pods-Bridge-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
 			);
@@ -293,12 +305,16 @@
 			files = (
 				67E2C05F1F94934000C25566 /* Functions.swift in Sources */,
 				673AB3CB1F87AEC4008BAB48 /* LoginViewController.swift in Sources */,
+				36314D411F9F72A400C91A57 /* testVC.swift in Sources */,
 				67BAB9E51F875EE4008767B7 /* ViewController.swift in Sources */,
 				67BAB9E31F875EE4008767B7 /* AppDelegate.swift in Sources */,
 				67BAB9F51F876210008767B7 /* SplashController.swift in Sources */,
+				36314D471F9F78D200C91A57 /* test1VC.swift in Sources */,
 				67E2C0611F94989600C25566 /* ProfileViewController.swift in Sources */,
 				672E505D1F88D40300AC3D52 /* SignUpViewController.swift in Sources */,
 				67BEEBE91F94D34B00EBAEA6 /* Constants.swift in Sources */,
+				36314D431F9F73FA00C91A57 /* TestTVCell.swift in Sources */,
+				36314D451F9F78C100C91A57 /* Test1TVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

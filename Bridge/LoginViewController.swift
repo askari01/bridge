@@ -27,13 +27,12 @@ class LoginViewController: UIViewController {
         if let user = Auth.auth().currentUser
         {
             print("Current User ID: \(user.uid)")
-            print("Current User Email: \(user.email!)")
-            print("Current User Display Name: \(user.displayName!)")
+            print("Current User Email: \(user.email)")
+            print("Current User Display Name: \(user.displayName)")
         }
         else{
             loginUser(emailAddress.text!, password.text!)
         }
-        
         //performSegue(withIdentifier: "setupProfileView", sender: self)
     }
    

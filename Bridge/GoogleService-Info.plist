@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>813412172190-0ci89s6sq3cqppvd17ij967885e8d083.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.813412172190-0ci89s6sq3cqppvd17ij967885e8d083</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHa3ZHgdvmSbtIWa4cQhiMYRkntog4JHA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>813412172190</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.techease.Bridge</string>
+	<key>PROJECT_ID</key>
+	<string>bridge-3f01a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bridge-3f01a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:813412172190:ios:6a63c2670a9fc4ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://bridge-3f01a.firebaseio.com</string>
+</dict>
+</plist>
